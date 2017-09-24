@@ -1,0 +1,15 @@
+Source: aws-iot-device-sdk-cpp
+Section: utils
+Priority: options
+Maintainer: Michael Zanetti <michael.zanetti@guh.io>
+Build-depends: debhelper (>= 0.0.0),
+               cmake,
+               libssl-dev,
+Standards-Version: 3.9.3
+
+Package: libaws-iot-device-sdk-cpp
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Description: The AWS IoT device C++ SDK
+  The AWS IoT device C++ SDK
